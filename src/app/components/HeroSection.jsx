@@ -46,7 +46,7 @@ export default function HeroSection({
     <AnimatePresence mode="wait">
       <motion.section
         key={routeKey}
-        className="relative bg-white"
+        className="relative bg-white mt-6"
         initial="hidden"
         animate="visible"
         exit="hidden"

@@ -45,8 +45,8 @@ export default function Header() {
   };
 
   return (
-    <header>
-      <nav className="container mx-auto px-4 py-4">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white">
+      <nav className="container mx-auto px-4 py-4 sticky">
         <motion.div
           initial="hidden"
           animate="visible"
